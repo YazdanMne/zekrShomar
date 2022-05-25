@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+ <com.google.android.material.appbar.MaterialToolbar
+     android:id="@+id/materialToolbar"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#B4FE98"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.0"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.0" />
+
+ <TextView
+     android:id="@+id/textView2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="-15dp"
+     android:fontFamily="@font/dana_b"
+     android:text="ذکر شمار"
+     android:textColor="@color/black"
+     android:textSize="20dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="@+id/materialToolbar"
+     app:layout_constraintHorizontal_bias="0.498"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.036" />
+
+ <Button
+     android:id="@+id/sixsshanbeh"
+     android:layout_width="219dp"
+     android:layout_height="64dp"
+     android:backgroundTint="#B4FE98"
+     android:fontFamily="@font/dana_r"
+     android:text="ذکّر روز جمعه"
+     android:textColor="@color/black"
+     android:textSize="25dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.505"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.871"
+     app:strokeColor="#000000"
+     app:strokeWidth="3dp" />
+
+ <Button
+     android:id="@+id/fiveshanbeh"
+     android:layout_width="219dp"
+     android:layout_height="64dp"
+     android:backgroundTint="#B4FE98"
+     android:fontFamily="@font/dana_r"
+     android:text="ذکّر روز پنج شنبه"
+     android:textColor="@color/black"
+     android:textSize="25dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.775"
+     app:strokeColor="#000000"
+     app:strokeWidth="3dp" />
+
+ <Button
+     android:id="@+id/threeshanbeh"
+     android:layout_width="219dp"
+     android:layout_height="64dp"
+     android:backgroundTint="#B4FE98"
+     android:fontFamily="@font/dana_r"
+     android:text="ذکّر روز سه شنبه"
+     android:textColor="@color/black"
+     android:textSize="25dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.505"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.593"
+     app:strokeColor="#000000"
+     app:strokeWidth="3dp" />
+
+ <Button
+     android:id="@+id/shanbeh"
+     android:layout_width="219dp"
+     android:layout_height="64dp"
+     android:backgroundTint="#B4FE98"
+     android:fontFamily="@font/dana_r"
+     android:text="ذکّر روز شنبه"
+     android:textColor="@color/black"
+     android:textSize="27dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.505"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.305"
+     app:strokeColor="#000000"
+     app:strokeWidth="3dp" />
+
+ <Button
+     android:id="@+id/Oneshanbeh"
+     android:layout_width="219dp"
+     android:layout_height="64dp"
+     android:backgroundTint="#B4FE98"
+     android:fontFamily="@font/dana_r"
+     android:text="ذکّر روز یکشنبه"
+     android:textColor="@color/black"
+     android:textSize="27dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.401"
+     app:strokeColor="#000000"
+     app:strokeWidth="3dp" />
+
+ <Button
+     android:id="@+id/salavat"
+     android:layout_width="219dp"
+     android:layout_height="64dp"
+     android:backgroundTint="#B4FE98"
+     android:fontFamily="@font/dana_r"
+     android:text="صلوات"
+     android:textColor="@color/black"
+     android:textSize="30dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.505"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/materialToolbar"
+     app:layout_constraintVertical_bias="0.139"
+     app:strokeColor="#000000"
+     app:strokeWidth="3dp" />
+
+ <Button
+     android:id="@+id/foreshanbeh"
+     android:layout_width="219dp"
+     android:layout_height="64dp"
+     android:backgroundTint="#B4FE98"
+     android:fontFamily="@font/dana_r"
+     android:text="ذکّر روز چهار شنبه"
+     android:textColor="@color/black"
+     android:textSize="25dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.689"
+     app:strokeColor="#000000"
+     app:strokeWidth="3dp" />
+
+ <Button
+     android:id="@+id/twoshanbeh"
+     android:layout_width="219dp"
+     android:layout_height="64dp"
+     android:backgroundTint="#B4FE98"
+     android:fontFamily="@font/dana_r"
+     android:text="ذکّر روز دوشنبه"
+     android:textColor="@color/black"
+     android:textSize="27dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.497"
+     app:strokeColor="#000000"
+     app:strokeWidth="3dp" />
+
+ <ImageView
+     android:id="@+id/imageView2"
+     android:layout_width="390dp"
+     android:layout_height="432dp"
+     android:layout_marginStart="10dp"
+     android:layout_marginTop="69dp"
+     android:layout_marginEnd="11dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.0"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/materialToolbar"
+     app:layout_constraintVertical_bias="0.373"
+     app:srcCompat="@drawable/apk_ghazal_salavat_dd578f45_ec8b_4d06_9612_6a1f3e3ae2f6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

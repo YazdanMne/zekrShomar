@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ZekrShomar/app/src/main/res/font/fonts.xml" value="0.284375" />
+        <entry key="..\:/ZekrShomar/app/src/main/res/layout/activity_five_shanbeh.xml" value="0.19429347826086957" />
+        <entry key="..\:/ZekrShomar/app/src/main/res/layout/activity_four_shanbe.xml" value="0.19429347826086957" />
+        <entry key="..\:/ZekrShomar/app/src/main/res/layout/activity_jomee.xml" value="0.19429347826086957" />
+        <entry key="..\:/ZekrShomar/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/ZekrShomar/app/src/main/res/layout/activity_one_shanbe.xml" value="0.264" />
+        <entry key="..\:/ZekrShomar/app/src/main/res/layout/activity_salavat.xml" value="0.264" />
+        <entry key="..\:/ZekrShomar/app/src/main/res/layout/activity_shanbe.xml" value="0.2" />
+        <entry key="..\:/ZekrShomar/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
+        <entry key="..\:/ZekrShomar/app/src/main/res/layout/activity_three_shanbe.xml" value="0.19429347826086957" />
+        <entry key="..\:/ZekrShomar/app/src/main/res/layout/activity_two_shanbe.xml" value="0.19429347826086957" />
+        <entry key="..\:/ZekrShomar/app/src/main/res/menu/menu1.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
